@@ -43,7 +43,7 @@ class Keeper {
         $contextToUse = $this->getContext($context);
 
         foreach($inputs as $key => $value) {
-            if ((boolean)$value) {
+            if (!empty($value) || is_numeric($value)) {
                 $this->session->put("keeper.$contextToUse.$key", $value);
             } else {
                 $this->forget($key, $context);
