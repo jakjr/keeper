@@ -1,7 +1,7 @@
 <?php
 namespace Jakjr\Keeper;
 
-use Illuminate\Session\SessionInterface;
+use Illuminate\Session\Store as SessionInterface;
 
 class Keeper {
 
