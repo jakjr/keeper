@@ -14,10 +14,7 @@
         }
     },
     "require": {
-      "illuminate/support": "^5.5"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "4.*"
+      "illuminate/support": "*"
     },
     "autoload-dev": {
         "psr-4": {
