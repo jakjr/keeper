@@ -19,7 +19,11 @@ class KeepFilters
 
             $keeper = \App::make('keeper');
 
-            $keeper->keep( array_dot( $request->only(['filter']) ) );
+            $keeper->keep(
+                Arr::dot(
+                    $request->only(['filter'])
+                )
+            );
 
             //sempre que houver submit de filters,
             //reinicio a paginação do contexto.
