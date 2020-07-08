@@ -14,7 +14,7 @@
         }
     },
     "require": {
-      "illuminate/support": "*"
+      "illuminate/support": "^6.0|^7.0|^8.0"
     },
     "autoload-dev": {
         "psr-4": {
