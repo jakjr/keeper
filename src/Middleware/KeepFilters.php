@@ -3,6 +3,7 @@
 namespace Jakjr\Keeper\Middleware;
 
 use Closure;
+use Illuminate\Support\Arr;
 
 class KeepFilters
 {
